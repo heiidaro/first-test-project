@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Maki';
+    src: url(/fonts/ofont.ru_Maki\ Sans.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fefaf4;
+}
+
+
+body{
+    padding-top: 80px;
+    height: 100%;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    font-family: 'Maki', sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+
+li {
+    padding: 0 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 40px;
+    color: #314159;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.nav a {
+    font-size: 14px;
+    color: #314159;
+}
+
+.nav button {
+    background-color: #c86132;
+    padding: 13px 30px;
+    color: white;
+    border: none;
+    font-size: 12px;
+    border-radius: 7px;
+    font-family: 'Maki', sans-serif;
+}
+
+.about {
+    min-height: 90vh;
+    box-sizing: border-box;
+    padding: 0px 100px;
+
+    background-image: url("imgs/bg2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    align-items: center;
+    display: flex;
+}
+
+.about-left {
+    max-width: 50%;
+    background: transparent;
+    text-align: left;
+}
+
+.about-left h1 {
+    margin-top: 0;
+    font-size: 160px;
+    font-weight: 400;
+    background: transparent;
+    color: #314159;
+    line-height: 0.7; /* расстояние между строками */
+}
+
+.about-left h3 {
+    font-family: 'Maki', sans-serif;
+    font-size: 25px;
+    background: transparent;
+    color: #314159;
+    margin-top: 50px;
+}
+
+.about-left p {
+    background: transparent;
+    color: #314159;
+    font-family: 'Maki', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.about-left button {
+ background: transparent;
+ border: #c86132 2px solid;
+ width: 250px;
+ height: 50px;
+ border-radius: 7px;
+ font-family: 'Maki', sans-serif;
+ color: #c86132;
+ font-size: 15px;
+
+ margin-top: 100px;
+}
+
+.about-dop-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 100px;
+    align-items: center;
+}
+
+.about-dop-info .left-text {
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 45%;
+}
+
+.about-dop-info .right-text p {
+    color: #314159;
+    font-size: 25px;
+    font-family: 'Maki', sans-serif;
+}
+
+.about-dop-info .right-text span {
+    display: block; /* span можно сделать блочным, тогда на него будут действовать все свойства блоков */
+    font-size: 15px;
+    line-height: 1.3;
+    margin-top: 20px;
+}
