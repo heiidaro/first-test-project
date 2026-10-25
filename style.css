@@ -150,4 +150,29 @@ body{
     margin-top: 20px;
 }
 
+.program {
+    padding: 70px 100px;
+    align-items: center;
+}
 
+.program h1 {
+    font-size: 35px;
+    font-weight: 400;
+    background: transparent;
+    color: #314159;
+    font-family: 'Maki', sans-serif;
+}
+
+.program ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    color: #314159;
+    font-family: 'Maki', sans-serif;
+    margin-top: 20px;
+}
+
+.program ul li span {
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
