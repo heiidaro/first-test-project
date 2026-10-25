@@ -29,18 +29,18 @@ body{
     top: 0;
 }
 
-ul {
+.nav ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     
 }
 
-li {
+.nav li {
     padding: 0 40px;
 }
 
-a {
+.nav a {
     text-decoration: none;
 }
 
@@ -149,3 +149,5 @@ a {
     line-height: 1.3;
     margin-top: 20px;
 }
+
+
