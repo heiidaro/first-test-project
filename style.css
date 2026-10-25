@@ -201,3 +201,54 @@ body{
     -webkit-mask: var(--logo) center / contain no-repeat; /* в данном случае --logo - это переменная, которая задается в html */
     mask: var(--logo) center / contain no-repeat;
 }
+
+.reviews {
+    padding: 70px 100px;
+    align-items: center;
+}
+
+.reviews h1 {
+    font-size: 35px;
+    font-weight: 400;
+    background: transparent;
+    color: #314159;
+    font-family: 'Maki', sans-serif;
+}
+
+.reviews-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.review {
+    min-width: 0;
+    min-height: 230px;
+    padding: 32px 45px;
+    background-color: #f9f4ec;
+    border-radius: 2px 5px 3px 6px;
+
+    box-shadow: 1px 3px 5px rgb(49 65 89 / 8%), /* box-shadow: смещение-X смещение-Y размытие расширение цвет; */
+    4px 12px 16px -8px rgb(49 65 89 / 25%);
+
+    transform: rotate(-4deg);
+}
+
+.review:nth-child(2) { /* это CSS-псевдокласс, который выбирает элемент по его порядковому номеру среди соседних элементов внутри одного родителя. */
+    transform: rotate(2deg);
+}
+
+.review:nth-child(3) {
+    transform: rotate(-2deg);
+}
+
+.review p {
+    background-color: #f9f4ec;
+    font-family: 'Maki', sans-serif;
+    color: #314159;
+    width: 300px;
+}
+
+.author {
+    margin-bottom: 50px;
+}
