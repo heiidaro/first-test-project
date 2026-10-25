@@ -252,3 +252,60 @@ body{
 .author {
     margin-bottom: 50px;
 }
+
+.sale {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #e4b9a5;
+}
+
+/* Два блока — каждый занимает половину секции */
+.sale .left-side,
+.sale .right-side {
+    box-sizing: border-box;
+    flex: 0 0 50%;
+    min-width: 0;
+}
+
+.sale .left-side {
+    background-color: #e4b9a5;
+    padding: 24px 100px;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sale .left-side h3 {
+    background-color: #e4b9a5;
+    font-family: 'Maki', sans-serif;
+    color: #314159;
+    font-size: 25px;
+}
+
+.sale .left-side p {
+    background-color: #e4b9a5;
+    font-family: 'Maki', sans-serif;
+    color: #314159;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sale .left-side button {
+    background-color: #314159;
+    padding: 18px 30px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 7px;
+    font-family: 'Maki', sans-serif;
+    margin-top: 40px;
+}
+
+.sale .right-side img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
