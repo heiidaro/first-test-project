@@ -155,7 +155,7 @@ body{
     align-items: center;
 }
 
-.program h1 {
+.program h1, .partners h1 {
     font-size: 35px;
     font-weight: 400;
     background: transparent;
@@ -168,11 +168,36 @@ body{
     list-style-position: inside;
     color: #314159;
     font-family: 'Maki', sans-serif;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .program ul li span {
     display: block;
     margin-top: 20px;
     margin-left: 20px;
+}
+
+.partners {
+    padding: 70px 100px;
+    align-items: center;
+    width: 100%;
+}
+
+.partners .partner-logos {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.partner-icon {
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    background-color: #314159;
+    
+
+    -webkit-mask: var(--logo) center / contain no-repeat; /* в данном случае --logo - это переменная, которая задается в html */
+    mask: var(--logo) center / contain no-repeat;
 }
