@@ -466,3 +466,29 @@ section {
     height: 70px;
     border-radius: 7px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+    margin-top: 70px;
+    border-top: 1px solid #314159;
+}
+
+.footer h3 {
+    color: #314159;
+    font-family: 'Maki', sans-serif;
+}
+
+.media ul li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.media ul li a {
+    text-decoration: none;
+    color: #314159;
+    font-family: 'Maki', sans-serif;
+}
+
+
