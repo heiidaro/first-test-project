@@ -56,6 +56,10 @@ section {
     text-decoration: none;
 }
 
+.nav a:hover {
+    
+}
+
 .logo{
     font-size: 40px;
     color: #314159;
