@@ -413,3 +413,56 @@ section {
     color: white;
     border-radius: 7px;
 }
+
+.time {
+    border: 2px solid #c86132;
+    border-radius: 7px;
+    padding: 10px;
+    color: #314159;
+    font-family: 'Maki', sans-serif;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+.contact-form input {
+    border: none;
+    border-bottom: 1px solid #314159;
+    background: transparent;
+    padding: 5px;
+    width: 250px;
+    height: 50px;
+    color: #314159;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.contact-form p {
+    font-family: 'Maki', sans-serif;
+    font-size: 15px;
+}
+
+.contact-form p span {
+    font-size: 25px;
+}
+
+.buy-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-btn-container button {
+    background-color: #c86132;
+    font-size: 25px;
+    color: white;
+    border: none;
+    font-family: 'Maki', sans-serif;
+    width: 500px;
+    height: 70px;
+    border-radius: 7px;
+}
