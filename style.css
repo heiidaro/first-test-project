@@ -361,3 +361,19 @@ section {
     background-color: #c86132;
     color: white;
 }
+
+.booking {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar {
+    color: #314159;
+    font-family: 'Maki', sans-serif;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 9px;
+}
