@@ -56,10 +56,6 @@ section {
     text-decoration: none;
 }
 
-.nav a:hover {
-    
-}
-
 .logo{
     font-size: 40px;
     color: #314159;
@@ -96,8 +92,12 @@ section {
     display: flex;
 }
 
+.about-right {
+    display: none;
+}
+
 .about-left {
-    max-width: 50%;
+    min-width: 50%;
     background: transparent;
     text-align: left;
 }
@@ -144,6 +144,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .about-dop-info .left-text {
@@ -242,7 +243,6 @@ section {
     background-color: #f9f4ec;
     font-family: 'Maki', sans-serif;
     color: #314159;
-    width: 300px;
 }
 
 .author {
@@ -495,4 +495,61 @@ section {
     font-family: 'Maki', sans-serif;
 }
 
+
+@media (max-width: 1300px) {
+    .about {
+        background-image: none;
+        align-items: normal;
+        max-height: 90vh;
+        min-height: 50vh;
+        padding: 0 0 0 100px;
+    }
+
+    .about-right {
+        display: block;
+        max-width: 50%;
+        min-height: 50vh;
+        object-fit: fill;
+        overflow-x: hidden;
+    }
+
+    .about-left {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .nav .logo{
+        font-size: 20px;
+    }
+
+    .nav {
+        align-items: center;
+    }
+
+    .nav a {
+        font-size: 10px;
+    }
+
+    .nav li {
+        padding: 0 25px;
+    }
+
+    .about-left .logo-text {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 950px) {
+    section {
+        padding: 70px 50px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .about .about-left {
+        margin-right: 30px;
+    }
+}
 
